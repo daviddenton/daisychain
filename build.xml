@@ -1,4 +1,4 @@
-<project name="daisy-chain" default="build">
+<project name="daisychain" default="build">
     <property name="version" value="1.1"/>
     <property name="artifact" value="${ant.project.name}-${version}"/>
 
@@ -111,7 +111,7 @@
                 author="false"
                 version="false"
                 use="true"
-                windowtitle="daisy-chain"
+                windowtitle="daisychain"
                 classpathref="test-classpath">
             <packageset dir="src/main" defaultexcludes="yes">
                 <include name="**"/>

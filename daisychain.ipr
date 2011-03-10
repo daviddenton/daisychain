@@ -221,18 +221,18 @@
     </group>
   </component>
   <component name="ProjectDetails">
-    <option name="projectName" value="daisy-chain" />
+    <option name="projectName" value="daisychain" />
   </component>
   <component name="ProjectFileVersion" converted="true">
     <converter id="ror-modules" />
     <converter id="SelenaRunConfToDiana" />
   </component>
   <component name="ProjectKey">
-    <option name="state" value="https://daisy-chain.googlecode.com/svn/trunk/daisy-chain.ipr" />
+    <option name="state" value="https://daisychain.googlecode.com/svn/trunk/daisychain.ipr" />
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/daisy-chain.iml" filepath="$PROJECT_DIR$/daisy-chain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daisychain.iml" filepath="$PROJECT_DIR$/daisychain.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
@@ -260,11 +260,11 @@
             <SvnBranchConfiguration>
               <option name="branchUrls">
                 <list>
-                  <option value="https://daisy-chain.googlecode.com/svn/branches" />
-                  <option value="https://daisy-chain.googlecode.com/svn/tags" />
+                  <option value="https://daisychain.googlecode.com/svn/branches" />
+                  <option value="https://daisychain.googlecode.com/svn/tags" />
                 </list>
               </option>
-              <option name="trunkUrl" value="https://daisy-chain.googlecode.com/svn/trunk" />
+              <option name="trunkUrl" value="https://daisychain.googlecode.com/svn/trunk" />
             </SvnBranchConfiguration>
           </value>
         </entry>
