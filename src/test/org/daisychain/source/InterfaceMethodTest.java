@@ -1,11 +1,13 @@
 package org.daisychain.source;
 
+import static org.daisychain.source.Builders.anInterfaceMethodBlank;
+import static org.daisychain.source.Builders.anInterfaceMethodFull;
 import static org.daisychain.util.TestHelper.assertSource;
 import static org.daisychain.util.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 
-public class InterfaceMethodTest extends ObjectMother {
+public class InterfaceMethodTest {
 
     @Test
     public void interfaceMethodBlank() throws Exception {

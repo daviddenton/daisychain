@@ -5,7 +5,7 @@ import static org.daisychain.util.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 
-public class SourcePackageTest extends ObjectMother {
+public class SourcePackageTest {
 
     @Test
     public void source() throws Exception {

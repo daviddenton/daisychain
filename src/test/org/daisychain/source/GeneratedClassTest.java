@@ -1,11 +1,13 @@
 package org.daisychain.source;
 
+import static org.daisychain.source.Builders.aClassBlank;
+import static org.daisychain.source.Builders.aClassFull;
 import static org.daisychain.util.TestHelper.assertSource;
 import static org.daisychain.util.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 
-public class GeneratedClassTest extends ObjectMother {
+public class GeneratedClassTest {
 
     @Test
     public void classBlank() throws Exception {

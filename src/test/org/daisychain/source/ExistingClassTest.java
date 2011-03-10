@@ -2,18 +2,23 @@ package org.daisychain.source;
 
 import static junit.framework.Assert.assertTrue;
 import static org.daisychain.source.ExistingClass.existingClass;
+import static org.daisychain.source.Builders.aVariableFull;
+import static org.daisychain.source.Builders.concreteClass;
+import static org.daisychain.source.Builders.concreteClassFull;
 import static org.daisychain.util.TestHelper.assertSource;
 import static org.daisychain.util.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 
-public class ExistingClassTest extends ObjectMother {
+public class ExistingClassTest {
 
     @Test
     public void callMethod() throws Exception {
         final Arguments arguments = new Arguments(aVariableFull());
         assertSource(concreteClass().call("valueOf", arguments.asStatements()), equalTo(readFileAsString(this, "callMethod")));
     }
+
+
 
     @Test
     public void aConcreteClassDefUsage() throws Exception {

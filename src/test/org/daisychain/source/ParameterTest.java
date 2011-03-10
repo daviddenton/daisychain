@@ -1,11 +1,13 @@
 package org.daisychain.source;
 
+import static org.daisychain.source.Builders.aFinalParameter;
+import static org.daisychain.source.Builders.aNonFinalParameter;
 import static org.daisychain.util.TestHelper.assertSource;
 import static org.daisychain.util.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 
-public class ParameterTest extends ObjectMother {
+public class ParameterTest {
 
     @Test
     public void finalParameter() throws Exception {

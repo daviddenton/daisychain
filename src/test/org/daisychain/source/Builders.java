@@ -13,9 +13,7 @@ import static java.util.Collections.EMPTY_MAP;
 import java.util.HashMap;
 import java.util.List;
 
-public class ObjectMother {
-    public static final String BODY = "BODY";
-
+public class Builders {
 
     public static ExistingClass concreteClass() {
         return ExistingClass.existingClass(String.class, (List<? extends AClass>) EMPTY_LIST);

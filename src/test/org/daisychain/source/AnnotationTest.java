@@ -1,11 +1,13 @@
 package org.daisychain.source;
 
+import static org.daisychain.source.Builders.anAnnotationBlank;
+import static org.daisychain.source.Builders.anAnnotationFull;
 import static org.daisychain.util.TestHelper.assertSource;
 import static org.daisychain.util.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 
-public class AnnotationTest extends ObjectMother {
+public class AnnotationTest {
 
     @Test
     public void blank() throws Exception {
@@ -16,7 +18,4 @@ public class AnnotationTest extends ObjectMother {
     public void full() throws Exception {
         assertSource(anAnnotationFull(), equalTo(readFileAsString(this, "full")));
     }
-
-
-    
 }

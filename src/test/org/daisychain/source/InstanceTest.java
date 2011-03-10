@@ -1,11 +1,12 @@
 package org.daisychain.source;
 
+import static org.daisychain.source.Builders.aVariableFull;
 import static org.daisychain.util.TestHelper.assertSource;
 import static org.daisychain.util.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 
-public class InstanceTest extends ObjectMother {
+public class InstanceTest {
 
     @Test
     public void callMethod() throws Exception {
