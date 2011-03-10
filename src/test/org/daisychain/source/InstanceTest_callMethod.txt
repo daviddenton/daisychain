@@ -1,0 +1,1 @@
+aVariable.replaceAll(aVariable, aVariable)

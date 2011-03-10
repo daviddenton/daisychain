@@ -1,0 +1,32 @@
+TODO----
+add generics to the DcType so that all types can be generified (params)
+
+
+for lists, use the name of the generified type as the parameter name
+rewrite the strict dsl generator using the dsls
+
+loose ordering dsls
+option for hardcoded method invocations instead of dynamic (currently static)
+compile time checking?!?
+ant task to regenerate
+annotation for source
+check for reserved words
+
+move to new home in googlecode
+documentation/wiki
+              
+tests
+
+privatise classes in inner packages
+
+state based DSLs
+
+--------------------
+
+- a field is a variable with modifiers and annotations
+- instantiating a class results in a variable being created and a statement?!?
+- assign value of one variable to another
+
+- methods have named parameters (variables)?
+-
+

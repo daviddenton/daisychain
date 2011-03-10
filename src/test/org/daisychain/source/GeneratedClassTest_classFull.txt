@@ -1,0 +1,31 @@
+@String
+@String(name1 = value1, name2 = value2)
+private final class AFullClass implements String<String, String>, String<String, String> {
+    ABlankClass aVariable;
+    
+    @String
+    @String(name1 = value1, name2 = value2)
+    private final ABlankClass aVariable = value;
+    
+    String aMethod() {
+    }
+    
+    @String
+    @String(name1 = value1, name2 = value2)
+    private final String<String, String> aMethodFull(final String<String, String> aVariable, final String<String, String> aVariable) throws String<String, String>, String<String, String> {
+        aVariable;
+        aVariable;
+    }
+    
+    class ABlankClass {
+    }
+    
+    class ABlankClass {
+    }
+
+    interface ABlankInterface {
+    }
+    
+    interface ABlankInterface {
+    }
+}

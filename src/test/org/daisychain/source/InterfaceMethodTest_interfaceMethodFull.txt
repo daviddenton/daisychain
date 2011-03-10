@@ -1,0 +1,1 @@
+String<String, String> anInterfaceMethodFull(final String<String, String> aVariable, final String<String, String> aVariable) throws String<String, String>, String<String, String>;

@@ -1,0 +1,6 @@
+@String
+@String(name1 = value1, name2 = value2)
+private final String<String, String> aMethodFull(final String<String, String> aVariable, final String<String, String> aVariable) throws String<String, String>, String<String, String> {
+    aVariable;
+    aVariable;
+}

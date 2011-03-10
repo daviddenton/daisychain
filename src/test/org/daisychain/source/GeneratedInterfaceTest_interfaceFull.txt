@@ -1,0 +1,19 @@
+@String
+@String(name1 = value1, name2 = value2)
+private final interface AFullInterface extends String<String, String>, String<String, String> {
+    String anInterfaceMethodBlank();
+    
+    String<String, String> anInterfaceMethodFull(final String<String, String> aVariable, final String<String, String> aVariable) throws String<String, String>, String<String, String>;
+
+    class ABlankClass {
+    }
+
+    class ABlankClass {
+    }
+
+    interface ABlankInterface {
+    }
+
+    interface ABlankInterface {
+    }
+}
