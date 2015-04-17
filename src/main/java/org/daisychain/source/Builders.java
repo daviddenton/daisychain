@@ -1,17 +1,18 @@
 package org.daisychain.source;
 
-import static org.daisychain.source.DaisyChain.a;
-import static org.daisychain.source.Modifier.privateFinal;
 import org.daisychain.source.body.Statement;
 import org.daisychain.source.body.StatementedBody;
-import static org.daisychain.source.body.Value.value;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 import static java.util.Arrays.asList;
 import static java.util.Collections.EMPTY_LIST;
 import static java.util.Collections.EMPTY_MAP;
-import java.util.HashMap;
-import java.util.List;
+import static org.daisychain.source.DaisyChain.a;
+import static org.daisychain.source.Modifier.privateFinal;
+import static org.daisychain.source.body.Value.value;
 
 public class Builders {
 
