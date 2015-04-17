@@ -11,14 +11,14 @@ apply plugin: 'java'
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'maven-publish'
 
-version = '1.0.0'
+version = '1.0.1'
 group = 'io.github.daviddenton'
 
 dependencies {
     compile 'com.google.guava:guava:18.0'
     compile 'commons-lang:commons-lang:2.6'
     compile 'commons-io:commons-io:2.4'
-    testCompile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {

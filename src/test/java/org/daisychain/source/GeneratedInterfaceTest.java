@@ -1,11 +1,12 @@
 package org.daisychain.source;
 
+import org.junit.Test;
+
 import static org.daisychain.source.Builders.anInterfaceBlank;
 import static org.daisychain.source.Builders.anInterfaceFull;
-import static org.daisychain.util.TestHelper.assertSource;
-import static org.daisychain.util.TestHelper.readFileAsString;
+import static org.daisychain.test.TestHelper.assertSource;
+import static org.daisychain.test.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
-import org.junit.Test;
 
 public class GeneratedInterfaceTest {
 

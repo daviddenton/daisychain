@@ -1,6 +1,5 @@
-package org.daisychain.util;
+package org.daisychain.test;
 
-import static junit.framework.Assert.assertEquals;
 import org.apache.commons.io.IOUtils;
 import org.daisychain.source.HasImports;
 import org.daisychain.source.MutableClass;
@@ -8,12 +7,14 @@ import org.daisychain.source.SourceGenerator;
 import org.daisychain.source.body.Statement;
 import org.daisychain.source.util.IndentingStringWriter;
 import org.hamcrest.Matcher;
-import static org.junit.Assert.assertThat;
 
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.Collections;
 import java.util.Set;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 public class TestHelper {
 

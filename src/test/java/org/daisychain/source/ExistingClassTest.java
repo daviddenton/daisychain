@@ -5,8 +5,8 @@ import static org.daisychain.source.ExistingClass.existingClass;
 import static org.daisychain.source.Builders.aVariableFull;
 import static org.daisychain.source.Builders.concreteClass;
 import static org.daisychain.source.Builders.concreteClassFull;
-import static org.daisychain.util.TestHelper.assertSource;
-import static org.daisychain.util.TestHelper.readFileAsString;
+import static org.daisychain.test.TestHelper.assertSource;
+import static org.daisychain.test.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 

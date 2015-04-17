@@ -2,8 +2,8 @@ package org.daisychain.source;
 
 import static org.daisychain.source.Builders.anAnnotationBlank;
 import static org.daisychain.source.Builders.anAnnotationFull;
-import static org.daisychain.util.TestHelper.assertSource;
-import static org.daisychain.util.TestHelper.readFileAsString;
+import static org.daisychain.test.TestHelper.assertSource;
+import static org.daisychain.test.TestHelper.readFileAsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
 

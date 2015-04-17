@@ -1,10 +1,11 @@
 package org.daisychain.source;
 
-import static org.daisychain.source.Builders.aClassFull;
-import static org.daisychain.util.TestHelper.assertSource;
-import static org.daisychain.util.TestHelper.readFileAsString;
-import static org.hamcrest.CoreMatchers.equalTo;
 import org.junit.Test;
+
+import static org.daisychain.source.Builders.aClassFull;
+import static org.daisychain.test.TestHelper.assertSource;
+import static org.daisychain.test.TestHelper.readFileAsString;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 public class SourceFileTest {
 
