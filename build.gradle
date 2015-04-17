@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'xom:xom:1.2.5'
+    compile 'com.google.guava:guava:18.0'
+    compile 'commons-lang:commons-lang:2.6'
+    compile 'commons-io:commons-io:2.4'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.hamcrest:hamcrest-all:1.3'
+}

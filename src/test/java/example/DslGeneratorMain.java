@@ -1,4 +1,4 @@
-package someother;
+package example;
 
 import org.daisychain.core.generate.ClasspathWalker;
 import org.daisychain.core.generate.DslAnnotatedFilter;
@@ -20,7 +20,7 @@ public class DslGeneratorMain {
 //                }
 //            }
 //        }
-        new RecursiveClasspathWalker("someother").forAllClasses(new DslAnnotatedFilter(), new LogToStdOutProcessor());
+        new RecursiveClasspathWalker("example").forAllClasses(new DslAnnotatedFilter(), new LogToStdOutProcessor());
 //        System.out.println(TestClassDsl.create().thatHasThis(1).andContains("").withThis(null).build());
 //
 //        final List emptyList = Collections.singletonList(ClassBuilderDsl.anInterface().annotatedBy(Collections.EMPTY_LIST).modifiedBy(Collections.EMPTY_LIST).named("hello").extending(Collections.EMPTY_LIST).defining(Collections.EMPTY_LIST).containing(Collections.EMPTY_LIST).build());

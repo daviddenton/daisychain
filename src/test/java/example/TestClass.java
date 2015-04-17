@@ -1,4 +1,4 @@
-package someother;
+package example;
 
 import org.daisychain.core.annotate.Dsl;
 import org.daisychain.core.annotate.Param;

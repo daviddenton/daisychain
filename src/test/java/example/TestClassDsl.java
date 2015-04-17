@@ -1,4 +1,4 @@
-package someother;
+package example;
 
 import org.daisychain.core.annotate.GeneratedDsl;
 import org.daisychain.core.generate.Builder;
@@ -20,7 +20,7 @@ public class TestClassDsl {
     @GeneratedDsl(target = TestClass.class)
     public interface createMeATestClass {
 
-        public interface _0 extends EntryPoint<someother.TestClass, createMeATestClass._0> {
+        public interface _0 extends EntryPoint<TestClass, _0> {
             _1 thatHasThis(Number _Number);
         }
 
@@ -36,7 +36,7 @@ public class TestClassDsl {
     @GeneratedDsl(target = TestClass.class)
     public interface create {
 
-        public interface _0 extends EntryPoint<someother.TestClass, create._0> {
+        public interface _0 extends EntryPoint<TestClass, _0> {
             _1 thatHasThis(Number _Number);
         }
 
