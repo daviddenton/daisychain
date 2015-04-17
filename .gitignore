@@ -2,9 +2,9 @@
 *.class
 .idea/
 build/
-*.iml
-*.ipr
-*.iws
+daisychain.iml
+daisychain.ipr
+daisychain.iws
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
