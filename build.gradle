@@ -1,14 +1,50 @@
-apply plugin: 'java'
-
-version = '1.0'
+plugins {
+    id "com.jfrog.bintray" version "1.1"
+}
 
 repositories {
     mavenCentral()
+    jcenter()
 }
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'com.jfrog.bintray'
+
+version = '0.0.1'
+group = 'io.github.daviddenton'
 
 dependencies {
     compile 'com.google.guava:guava:18.0'
     compile 'commons-lang:commons-lang:2.6'
     compile 'commons-io:commons-io:2.4'
     testCompile 'junit:junit:4.12'
+}
+
+
+bintray {
+    user = 'daviddenton'
+    key = project.bintrayKey
+
+//    publications = ['mavenStuff']
+    dryRun = false
+    publish = true
+    pkg {
+        repo = 'maven'
+        name = 'daisychain'
+        desc = 'Java source code generation'
+        websiteUrl = 'https://github.com/bintray/gradle-bintray-plugin'
+        issueTrackerUrl = 'https://github.com/bintray/gradle-bintray-plugin/issues'
+        vcsUrl = 'https://github.com/bintray/gradle-bintray-plugin.git'
+        licenses = ['Apache-2.0']
+        labels = ['gear', 'gore', 'gorilla']
+        publicDownloadNumbers = true
+        version {
+            name = project.version
+//            mavenCentralSync {
+//                user = 'daviddenton'
+//                password = project.sonatypePassword
+//            }
+        }
+    }
 }
