@@ -53,11 +53,11 @@ bintray {
         repo = 'maven'
         name = 'daisychain'
         desc = 'Java source code generation'
-        websiteUrl = 'https://github.com/bintray/gradle-bintray-plugin'
-        issueTrackerUrl = 'https://github.com/bintray/gradle-bintray-plugin/issues'
-        vcsUrl = 'https://github.com/bintray/gradle-bintray-plugin.git'
+        websiteUrl = 'https://github.com/daviddenton/daisychain'
+        issueTrackerUrl = 'https://github.com/daviddenton/daisychain/issues'
+        vcsUrl = 'https://github.com/daviddenton/daisychain.git'
         licenses = ['Apache-2.0']
-        labels = ['gear', 'gore', 'gorilla']
+        labels = []
         publicDownloadNumbers = true
         version {
             name = project.version
